@@ -28,3 +28,7 @@ _This is an optional additional session to take a deeper look at schnorr signatu
 1. What makes Pay to Taproot more private than previous output formats?
 1. What are the difficulties and benefits of switching to Pay to Taproot addresses?
 1. Why does tapscript not support OP\_CHECKMULTISIG?
+
+### The softfork bundle
+
+1. Would it be possible to implement Taproot without schnorr signatures or schnorr outputs without Taproot?
