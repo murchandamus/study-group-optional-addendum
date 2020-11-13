@@ -21,7 +21,9 @@ _This is an optional additional session to take a deeper look at schnorr signatu
 1. How are schnorr signatures reducing a transaction's data footprint?
 1. How can validation of schnorr signatures be sped up?
 1. Why may schnorr signatures incentivize multi-spender transactions?
+1. What makes Schnorr signatures shorter?
 1. Why do schnorr signatures need a nonce?
+1. What is the risk of nonce-generation on a limited-entropy device like a hardware wallet? How can that risk be overcome with deterministic nonce generation? 
 
 ### Taproot
 
