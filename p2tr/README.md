@@ -13,6 +13,8 @@ _This is an optional additional session to take a deeper look at schnorr signatu
 [Secure Signatures - Harder Than You Think](https://www.youtube.com/watch?v=0gc1DSk8wlw) | 30 min | security, video
 [Scriptless Scripts](https://bitcoinmagazine.com/articles/scriptless-scripts-how-bitcoin-can-support-smart-contracts-without-smart-contracts) | 10 min | taptweak
 [How Schnorr signatures may improve Bitcoin](https://medium.com/cryptoadvance/how-schnorr-signatures-may-improve-bitcoin-91655bcb4744) | 25 min | elliptic curves, MuSig _optional_
+[On Building Consensus and Speedy Trial](http://r6.ca/blog/20210615T191422Z.html) | 20 min | Speedy Trial, Softfork Activation, _optional_
+[Optech Series: Preparing for Taproot](https://bitcoinops.org/en/preparing-for-taproot/) | 1h | Transaction fees, descriptors, MuSig, bech32m
 
 ## Discussion Questions
 
@@ -23,7 +25,7 @@ _This is an optional additional session to take a deeper look at schnorr signatu
 1. Why may schnorr signatures incentivize multi-spender transactions?
 1. What makes Schnorr signatures shorter?
 1. Why do schnorr signatures need a nonce?
-1. What is the risk of nonce-generation on a limited-entropy device like a hardware wallet? How can that risk be overcome with deterministic nonce generation? 
+1. What is the risk of nonce-generation on a limited-entropy device like a hardware wallet? How can that risk be overcome with deterministic nonce generation?
 
 ### Taproot
 
@@ -35,3 +37,9 @@ _This is an optional additional session to take a deeper look at schnorr signatu
 ### The softfork bundle
 
 1. Would it be possible to implement Taproot without schnorr signatures or schnorr outputs without Taproot?
+1. How did the Bitcoin network settle on using Speedy Trial to activate Taproot?
+
+### Native segwit output and bech32 addresses
+
+1. What's the difference between "native segwit" and "bech32(m)"?
+1. Should wallets allow sending to bech32m addresses?
